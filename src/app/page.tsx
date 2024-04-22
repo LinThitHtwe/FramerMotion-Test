@@ -1,9 +1,9 @@
 import Image from "next/image";
-import BasicOfMotion from "./BasicOfMotion";
-import Gestures from "./Gestures";
-import AnimationControls from "./AnimationControls";
-import ViewBaseAnimation from "./ViewBaseAnimation";
-import ScrollBaseAnimation from "./ScrollBaseAnimation";
+import BasicOfMotion from "../components/BasicOfMotion";
+import Gestures from "../components/Gestures";
+import AnimationControls from "../components/AnimationControls";
+import ViewBaseAnimation from "../components/ViewBaseAnimation";
+import ScrollBaseAnimation from "../components/ScrollBaseAnimation";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       {/* <Gestures /> */}
       {/* <AnimationControls /> */}
       {/* <ViewBaseAnimation /> */}
-      <ScrollBaseAnimation />
+      {/* <ScrollBaseAnimation /> */}
     </main>
   );
 }
