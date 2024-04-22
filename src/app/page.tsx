@@ -3,6 +3,7 @@ import BasicOfMotion from "./BasicOfMotion";
 import Gestures from "./Gestures";
 import AnimationControls from "./AnimationControls";
 import ViewBaseAnimation from "./ViewBaseAnimation";
+import ScrollBaseAnimation from "./ScrollBaseAnimation";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       {/* <BasicOfMotion /> */}
       {/* <Gestures /> */}
       {/* <AnimationControls /> */}
-      <ViewBaseAnimation />
+      {/* <ViewBaseAnimation /> */}
+      <ScrollBaseAnimation />
     </main>
   );
 }
